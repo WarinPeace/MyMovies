@@ -1,0 +1,176 @@
+<!--Time: 22:22 Tuesday -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMovies | MyMovies.com</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" media="screen and (max-width: 1072px)" href="CSS/phone.css">
+  </head>
+  <body>
+    <!--Navbar section-->
+    <nav id="navbar">
+      <div id="logo">
+        <img src="/img/logo.jpg" alt="MyMovies.com" />
+      </div>
+
+      <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About Us</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!--Home section-->
+    <section id="home">
+      <h1 class="h-primary">Welcome to MyMovies</h1>
+      <p id="p1">
+       Welcome to my website 'MyMovies'. This website contains the list of the movies of their
+       respectful genre.
+      </p>
+      <p>
+        You can suggest us if you know the names of other movies with their genre via mail 
+        so that we can add them to our website. Let's help each other out and enjoy watching movies.
+        </p>
+        <h4>Sharing is Entertaining!!!</h4>
+      <button class="btn">Order now</button>
+    </section>
+
+    <!--Services section-->
+
+    <section class="services-container">
+      <h1 id="h-primary">Movie Genre</h1>
+      <div id="services">
+        <!-- div 1 -->
+        <div class="box" id="box1">
+          <img class="img" src="img/action.jpg" alt="Action" />
+          <h2 class="h-secondary">Action</h2>
+          <ul class="ul">
+            <li>Top Gun</li>
+            <li>Black Adam</li>
+            <li>Mission: Impossible</li>
+          </ul>
+        </div>
+        <!-- div 2 -->
+        <div class="box" id="box2">
+          <img class="img" src="img/drama.jpg" alt="Drama" />
+          <h2 class="h-secondary">Drama</h2>
+
+          <ul class="ul">
+            <li>The Legends</li>
+            <li>The Untamed</li>
+            <li>The King's Avatar</li>
+          </ul>
+        </div>
+        <!-- div 3 -->
+        <div class="box" id="box3">
+          <img class="img" src="img/horror.jpg" alt="Horror" />
+          <h2 class="h-secondary">Horror</h2>
+
+          <ul class="ul">
+            <li>Carnival of Souls (1962)</li>
+            <li>The Exorcist (1973)</li>
+            <li>Dawn of the Dead (1978)</li>
+          </ul>
+        </div>
+        <!-- div 4 -->
+        <div class="box" id="box4">
+          <img class="img" src="img/comedy.jpg" alt="Comedy" />
+          <h2 class="h-secondary">Comedy</h2>
+
+          <ul class="ul">
+            <li>Licorice Pizza</li>
+            <li>The French Dispatch</li>
+            <li>Jungle Cruise</li>
+          </ul>
+        </div>
+        <!-- div 5 -->
+        <div class="box" id="box5">
+          <img class="img" src="img/romance.jpg" alt="Romance" />
+          <h2 class="h-secondary">Romance</h2>
+
+          <ul class="ul">
+            <li>The Notebook (2004)</li>
+            <li>Love Jones (1997)</li>
+            <li>Casablanca (1942)</li>
+          </ul>
+        </div>
+        <!-- div 6 -->
+        <div class="box" id="box6">
+          <img class="img" src="img/science fiction.png" alt="Science Fiction" />
+          <h2 class="h-secondary">Science Fiction</h2>
+
+          <ul class="ul">
+            <li>Moonfall</li>
+            <li>Oxygen</li>
+            <li>The Adam Project</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary" style="text-align:center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="./img/Marvel_Studios.jpg" alt="Marvel_Studios" />
+        </div>
+        <div class="client-item">
+          <img src="./img/paramount.png" alt="paramount" />
+        </div>
+        <div class="client-item">
+          <img src="./img/Nooran_pictures.png" alt="Nooran_pictures" />
+        </div>
+        <div class="client-item">
+          <img src="./img/WB.jpg" alt="WB" />
+        </div>
+        <div class="client-item">
+          <img src="./img/20 century.png" alt="20 century" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 style=" text-align: center;
+      font-size: 50px;
+      padding: 30px;
+      height: 40px;
+      color: black
+      ">Contact Us</h1>
+      <div id="contact-box">
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id ="name " placeholder = "Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" name="name" id ="email " placeholder = "Enter your name email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number: </label>
+          <input type="phone" name="name" id ="phone" placeholder = "Enter your name phone number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message: </label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; www.MyMovies.com.All rights reserved!
+      </div>
+    </footer>
+  </body>
+</html>

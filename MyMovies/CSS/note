@@ -1,0 +1,15 @@
+/* 
+1. Margin: auto, will work when display is block.
+2. Background using pseudo selector ->
+#client-section::before{
+    content:"";
+    position:absolute;
+    background: url("../img/bg.jpg");
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.4;
+} */
+
+
+
